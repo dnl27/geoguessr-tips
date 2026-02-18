@@ -13,7 +13,10 @@
       window.onload = function() {
         svgPanZoom('#demo-tiger', {
           zoomEnabled: true,
-          controlIconsEnabled: true
+          controlIconsEnabled: true,
+          zoomScaleSensitivity: 0.5,
+          minZoom: 0.5,
+          maxZoom: 20
         });
       };
     </script>
